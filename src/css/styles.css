@@ -23,3 +23,72 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/*
+Gallery
+*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-image{
+  width: 360px;
+  height: 200px;
+}
+
+
+
+/*
+Form 
+*/
+
+.feedback-form {
+  display:flex;
+  flex-direction:column;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+.form-style{
+  padding:8px;
+  border:1px solid #808080;
+  max-width:360px;
+  border-radius: 4px;
+  
+}
+
+.feedback-form label {
+display:flex;
+flex-direction:column;
+margin-bottom: 8px;
+font-weight: 16;
+
+}
+
+.feedback-form label:last-child {
+  margin-bottom: 0;
+}
+
+.btn{
+ color: #FFFFFF; 
+ background-color: #4E75FF;
+ max-width: 95px;
+ height: 40px; 
+ border: none;
+ border-radius: 8px;
+}
+
+.form-label{
+  color: #2E2F42;
+ 
+}
