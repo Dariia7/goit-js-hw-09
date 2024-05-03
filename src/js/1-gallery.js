@@ -94,5 +94,9 @@ import "simplelightbox/dist/simple-lightbox.min.css";
             captionDelay: 250,
             captionsData: 'alt',
           });
-
+          
+lightbox.on('show.simplelightbox', () => {
+  
+  document.body.style.backgroundColor = 'tomato'; 
+});
 
